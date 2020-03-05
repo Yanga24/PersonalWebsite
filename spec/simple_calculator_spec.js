@@ -9,17 +9,17 @@ describe("Add function", function() {
     expect(calculator.add(-1,-1)).toEqual(-2);
   });
 
-  it("should be able to  multiply multiple numbers", function() {
+  it("should be able to  add multiple numbers", function() {
     expect(calculator.add(1, 2, 3, 4, 5)).toEqual(15);
   });
 });
 
 describe("A simple calculator that multiply", function() {
-  it("should be able multiply two intergers", function() {
+  it("should be able to multiply two numbers", function() {
     expect(calculator.multiply(1,3)).toEqual(3);
   });
 
-  it("Should be able to multiply numbers", function() {
+  it("Should be able to multiply negative numbers", function() {
     expect(calculator.multiply(-1,3)).toEqual(-3);
   });
 
